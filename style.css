@@ -8,6 +8,18 @@
        color: black;
    }
 
+
+
+   h1 {
+       font-size: 48px;
+       font-weight: 100;
+   }
+
+   .contents1 {
+       font-size: 20px;
+       font-weight: lighter;
+   }
+
    .intro_bg {
        background-image: url("image/intro.png");
        width: 100%;
@@ -60,5 +72,46 @@
 
    .nav>li>a {
        margin-left: 84px;
+       color: white;
+   }
+
+
+   .amount {
+       position: relative;
+       top: -66px;
+       display: flex;
+       width: 1280px;
+       background: red;
+       margin: auto;
+   }
+
+   .amount>li {
+       flex: 1;
+       height: 132px;
+       background: skyblue;
+   }
+
+   .amount>li>div {
+       text-align: center;
+       background: green;
+       margin-top: 37px;
+       height: 57px;
+   }
+
+   .amount>li:not(:last-child)>div {
+       border-right: 1px solid gray;
+   }
+
+
+   .intro_text {
+       width: 100%;
+       margin: 231px auto 231px auto;
+       text-align: center;
+   }
+
+
+
+   .intro_text>h1,
+   .intro_text>h4 {
        color: white;
    }
